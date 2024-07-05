@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reservation Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="crt2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <input type="checkbox" id="active">
+    <div class="wrapper">
+        <label for="active" class="menu-btn"><i class="fa fa-list-ul"></i></label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart2.html">Reservation</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="main.html">About Us</a></li>
+            <li><a href="main.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <nav class="logo">
+        <div class="container">
+            <a href="#" class="cafelogo"><img src="images/orig kamala logo.png" alt=""></a>
+        </div>
+    </nav>
+    <section class="banner">
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class="card-container">
+            <div class="card-img">
+                <!-- image here -->
+            </div>
+
+            <div class="card-content">
+                <h3>Reservation</h3>
+                <form action="success.html">
+                    <div class="form-row">
+                        <select name="days">
+                            <option value="day-select">Select Day</option>
+                            <option value="sunday">Sunday</option>
+                            <option value="monday">Monday</option>
+                            <option value="tuesday">Tuesday</option>
+                            <option value="wednesday">Wednesday</option>
+                            <option value="thursday">Thursday</option>
+                            <option value="friday">Friday</option>
+                            <option value="saturday">Saturday</option>
+                        </select>
+
+                        <select name="hours">
+                            <option value="hour-select">Select Hour</option>
+                            <option value="10">10:00</option>
+                            <option value="12">12:00</option>
+                            <option value="14">14:00</option>
+                            <option value="16">16:00</option>
+                            <option value="18">18:00</option>
+                            <option value="20">20:00</option>
+                            <option value="22">22:00</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+
+                    <div class="form-row">
+                        <input type="number" placeholder="How Many Persons?" min="1">
+                        <input type="button" value="BOOK TABLE" onclick="location.href='ty.html';">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+<footer style="background-color: #503421;" class="text-white pt-2 pb-2">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="mb-2 font-weight-bold">Kamala Café</h5>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">About Us</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Contact Us</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">In-store Menu</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Café Location</a>
+                </p>
+            </div>
+        </div>
+        <hr class="mb-2">
+        <div class="row align-items-center">
+            <p>
+                Copyright © 2022, Kamala Café.
+            </p>
+        </div>
+        <div class="mb-1 col-md-12 col-lg-13">
+            <div class="text-center text-md-right">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white style=" font-size: 50px;><i
+                                class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white style=" font-size: 50px;><i
+                                class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
